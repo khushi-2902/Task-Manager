@@ -1,0 +1,37 @@
+
+/* Reset default browser spacing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Root elements */
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100%;
+}
+
+/* Body styling */
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: 'DM Sans', sans-serif;
+  background-color: #f8f7fc;
+  color: #25213b;
+}
+
+/* Form elements inherit the application's font */
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+/* Buttons */
+button {
+  cursor: pointer;
+}
